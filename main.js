@@ -53,7 +53,7 @@ function atualizaMediaFinal() {
      document.getElementById('media-final-resultado').innerHTML = mediaFinal >= notaMinima ? spanAprovado : spanReprovado;
 }
 
-function calculaMediaFinal() {git
+function calculaMediaFinal() {
     let somaDasNotas = 0;
 
     for (let i = 0; i <notas.length; i++) {
